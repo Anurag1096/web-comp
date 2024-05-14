@@ -1,0 +1,32 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-text-color: #333333;
+    --primary-fade-white:#EAEAEA;
+    --secondary-white:#FFFFFF;
+    --primary-moderate-cyan:#5BC8AF;
+    --dark-moderate-cyan:#297c6b;
+    --very-dark-cyan:#194D44;
+    --very-light-gray:#f5f5f5;
+    --grey:#757575;
+    --error-red:#FF7777;
+}
+html,
+body {
+    height:100%;
+    
+}
+
+body {
+    
+    font-family: Montserrat, san-serif;
+    font-weight:400;
+    color:#FFFFFF;
+   
+}
+
+
+
