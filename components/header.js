@@ -88,8 +88,10 @@ ul {
 
 li {
     color: #ffffff;
+    font-size:12px;
     filter: brightness(70%);
     margin: 2px;
+    text-align:center;
     list-style: none;
     cursor: pointer;
     margin: 0 1.9375rem 0 0; /* 0 31px 0 0 */
@@ -99,6 +101,7 @@ li:hover {
     color: #ffffff;
     filter: brightness(470%);
     font-weight: 700;
+    transition: all 0.4s ease-out;
     text-decoration-line: underline;
 }
 
@@ -160,6 +163,22 @@ li:hover {
 
 .text_content {
     max-width: 37.5rem; /* 600px */
+    animation-name:moveInLeft;
+    animation-duration: 2.5s;
+}
+@keyframes moveInLeft{
+    0%{
+        opacity:0;
+        transform:translateY(100px);
+    }
+    80%{
+      transform:translateY(-20px);
+    }
+    100%{
+        opacity:1;
+        transform:translateX(0);
+
+    }
 }
 .item5{
     grid-column:1/3;
